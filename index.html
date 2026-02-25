@@ -1,46 +1,143 @@
-<html>
-<center>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title> Silu Panda </title>
-	<h1 style="font-size:50px;"> <b>Silu Panda </b></h1>
-
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+  <title>Silu Panda</title>
   <style>
-	body {background-color: white;}
-	h1   {color: black;}
-	p    {color: black;}
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      color: #1a1a1a;
+      background: #fff;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 80px 24px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .tagline {
+      color: #666;
+      font-size: 16px;
+      margin-bottom: 32px;
+    }
+
+    .section {
+      margin-bottom: 36px;
+    }
+
+    .section-title {
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #999;
+      margin-bottom: 12px;
+    }
+
+    .entry {
+      margin-bottom: 16px;
+    }
+
+    .entry-role {
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    .entry-org {
+      color: #555;
+      font-size: 15px;
+    }
+
+    .bio {
+      font-size: 15px;
+      color: #444;
+    }
+
+    .links a {
+      color: #1a1a1a;
+      text-decoration: none;
+      font-size: 15px;
+      margin-right: 20px;
+    }
+
+    .links a:hover {
+      color: #666;
+    }
+
+    .nav {
+      margin-bottom: 40px;
+    }
+
+    .nav a {
+      color: #1a1a1a;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 500;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 1px;
+    }
+
+    .nav a:hover {
+      border-bottom-color: #1a1a1a;
+    }
   </style>
-
 </head>
-
 <body>
-	<p> <h3>Software Engineer</h3> </p>
-	
+  <div class="container">
+    <h1>Silu Panda</h1>
+    <p class="tagline">Software Engineer</p>
 
-	<img src="pic_me.jpg" alt="silu panda"  class = "img-cirle" width = "300" height = "300">
-	<br> 
-	<br>
-	<a href = "https://silupanda.github.io/blog" <b> [blog] </b> </a>
-	<a href = "/resume.pdf" <b> [current resume] </b> </a>
+    <div class="nav section">
+      <a href="https://silupanda.github.io/blog">blog</a>
+    </div>
 
-		<p> Hi there, Thanks for visitng my homepage. <br> I am a Software Engineer currently working from home/Bengaluru.<br> I have a bachelor's degree in computer science from IIT Bombay. 
+    <div class="section">
+      <div class="section-title">About</div>
+      <p class="bio">
+        Software engineer based in Bengaluru, from Odisha. Interested in machine learning, statistics, algorithms, and complexity.
+      </p>
+    </div>
 
- 	 <br>I am from Odisha. My Interest areas are Machine Learning, Statistics, Algorithms and Complexity 
-			<br>Some useful links to find me on internet.	</p>
+    <div class="section">
+      <div class="section-title">Experience</div>
+      <div class="entry">
+        <span class="entry-role">ML Infrastructure Engineer</span>
+        <span class="entry-org">&mdash; LinkedIn</span>
+      </div>
+      <div class="entry">
+        <span class="entry-role">Software Engineer</span>
+        <span class="entry-org">&mdash; Kayrros</span>
+      </div>
+    </div>
 
-	
-	<a href = "mailto:pandasilu428@gmail.com"> <img border = "0" alt="Email" src = "gmail.png" width = "50" height = "50" >
-	<a href = "https://www.linkedin.com/in/silu-panda-968a41106/"> <img border = "0" alt = "Linkedin" src = "linkedin.png" width = "50" height = "50" >
-	<a href = "https://www.github.com/SiluPanda"> <img border = "0" alt = "Github" src = "gihub.png" width = "50" height = "50"> 
+    <div class="section">
+      <div class="section-title">Education</div>
+      <div class="entry">
+        <span class="entry-role">B.Tech, Computer Science</span>
+        <span class="entry-org">&mdash; IIT Bombay</span>
+      </div>
+    </div>
 
-
-
-	</body>
-
-</center>
-
+    <div class="section">
+      <div class="section-title">Links</div>
+      <div class="links">
+        <a href="mailto:pandasilu428@gmail.com">email</a>
+        <a href="https://www.linkedin.com/in/silu-panda-968a41106/">linkedin</a>
+        <a href="https://www.github.com/SiluPanda">github</a>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
